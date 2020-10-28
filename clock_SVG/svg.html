@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clock SVG</title>
+    <link rel="stylesheet" href="svg.css">
+</head>
+<body>
+<svg id="clock" width=400 height=400 xmlns="http://www.w3.org/2000/svg">
+    <circle id="circle" cx="200" cy="200" r="200" fill="#fcca66"/>
+    <text id="timer" x="135" y="160"></text>
+    <g id="numbers"></g>
+    <g>
+        <circle id="mini--circle" cx="200" cy="200" r="10" fill="black"/>
+        <line id="hour" x1="200" y1="200" x2="200" y2="100" stroke-width="12"/>
+        <line id="minute" x1="200" y1="200" x2="310" y2='80' stroke-width="7"/>
+        <line id="second" x1="200" y1="200" x2="290" y2="40" stroke-width="4"/>
+    </g>
+</svg>
+<script src="svg.js"></script>
+</body>
+</html>

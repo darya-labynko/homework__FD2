@@ -1,0 +1,18 @@
+#hour,
+#minute,
+#second,
+#mini--circle {
+    transform-origin: 50% 50%;
+    stroke: black;
+    stroke-linecap: round;
+    fill: black;
+}
+
+#timer {
+    font-size: 40px;
+}
+
+text {
+    font-size: 30px;
+    text-align: center;
+}
